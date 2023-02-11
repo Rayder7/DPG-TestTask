@@ -1,0 +1,120 @@
+body {
+    background: url(../images/cosmos.png);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+h1 {
+    font-size: 55px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;  
+    text-align: center; 
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #797EA3
+}
+
+.logo {
+    margin-top: 90px;
+    text-align: center;
+}
+
+
+.rectangle {
+    max-width: 389px;
+    max-height: 816px;
+    background-color: #171929;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.7);
+    border-radius: 27px;
+
+}
+
+.menu {
+    padding-top: 41px;
+    margin: 10px 76px 0px 75px;
+    text-align: center;
+}
+.form_menu {
+    margin: 10px 45px 0px 45px;
+}
+
+
+.form-label {
+    color: #797EA3
+}
+.form-control {
+    background-color: #171929;
+    border: 0px;
+    border-bottom: 1px solid #FFFFFF;
+    border-radius: 0px;
+    color: #FFFFFF;
+}
+.form-control :hover {
+    background-color: #171929;
+}
+input[type="text"] {
+
+    background-color : #171929; 
+  
+  }
+
+.bnt_send {
+    padding: 0;
+}
+
+.btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    max-height: 44px;
+    max-width: 121px;
+    margin: 30px 134px 41px 134px;
+    background: #2C2F47;
+    border-radius: 28px;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+
+.form-check {
+    margin-left: 45px;
+}
+.form-check-input {
+    padding: 14px;
+    background: #2C2F47;
+    border-radius: 8px;
+    border-color: #2C2F47;
+    max-height: 31px;
+    max-width: 31px;
+}
+
+.form-check-input:checked {
+    background: #2C2F47;
+    border-radius: 8px;
+    border-color: #2C2F47;
+}
+
+.form-check-label {
+    vertical-align: middle;
+    color: #797EA3;
+    padding-left: 15px;
+    padding-top: 8px;
+    font-weight: 300;
+    font-size: 15px;
+}

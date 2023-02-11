@@ -31,43 +31,46 @@
                             <h2>For business enquiries please use the form below</h2>  
                             <h3>*Required</h3>
                         </div>
-                        <form class="form_menu">
-                            <div class="mb-3">
+                        <form class="form_menu needs-validation" data-toggle="validator" role="form">
+                            <div class="form-group">
                                 <label for="ValidationCustom01" class="form-label">Name*</label>
-                                <input type="text" class="form-control" id="ValidationCustom01" required="required" name="name" pattern="[A-Za-z]{6,}">
+                                <input type="text" class="form-control" id="InputName"  required="required" name="name" pattern="[A-Za-z]{3,}">
                             </div>
                             <div class="mb-3">
                                 <label for="ValidationCustom02" class="form-label">Company*</label>
-                                <input type="text" class="form-control" id="eValidationCustom02" required="required" name="company">
+                                <input type="text" class="form-control" id="InputName" required="required" name="company" pattern="[A-Za-z]{1,}">
                             </div>
-                            <div class="mb-3">
-                                <label for="ValidationCustom03" class="form-label">E-mail*</label>
-                                <input type="text" class="form-control" id="eValidationCustom03" required="required" name="email">
+                            <div class="form-group">
+                                <label for="inputEmail" class="form-label">E-mail*</label>
+                                <input type="email" class="form-control" id="inputEmail" required="required" name="email">
                             </div>
                             <div class="mb-3">
                                 <label for="ValidationCustom04" class="form-label">Phone</label>
-                                <input type="text" class="form-control" id="eValidationCustom04">
+                                <input type="text" class="form-control" id="ValidationCustom04"  pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$">
                             </div>
                             <div class="mb-3">
                                 <label for="ValidationCustom05" class="form-label">Subject</label>
-                                <input type="text" class="form-control" id="eValidationCustom05">
+                                <input type="text" class="form-control" id="ValidationCustom05" pattern="[A-Za-z]">
                             </div>
                             <div class="mb-3">
                                 <label for="ValidationCustom06" class="form-label">Message*</label>
-                                <input type="text" class="form-control" id="eValidationCustom06" required="required" name="message">
+                                <input type="text" class="form-control" id="ValidationCustom06" required="required" name="message">
                             </div>
-                        </form>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" required>
                             <label class="form-check-label" for="flexCheckChecked">
                                 I accept <u><span style="color: #B9BEE5;">Terms and Privacy Policy</span></u>
                             </label>
                         </div>
-                        <div class="btn_send">
-                        <a class="btn btn-primary" href="#" role="button">Send</a>
+                        <div class="btn_send" class="form-group">
+                            <button type="submit" class="btn btn-primary" href="/" role="button">Send</button>
+                    </form>
                     </div>
                 </div>
             </div>
         </div>    
     </intro>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>

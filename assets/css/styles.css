@@ -1,5 +1,6 @@
 body {
     background: url(../images/cosmos.png);
+    background-size: cover;
     font-family: 'Roboto', sans-serif;
 
 }
@@ -33,7 +34,7 @@ h3 {
 
 
 .logo {
-    margin-top: 90px;
+
     text-align: center;
 }
 
